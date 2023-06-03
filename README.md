@@ -1,71 +1,72 @@
-# Projet de Géolocalisation avec Django
+# Django Geolocation Project
 
-Ce projet vise à mettre en place une solution de géolocalisation des véhicules de l'entreprise dans nos principaux marchés africains. Il permettra de surveiller et de gérer la localisation des véhicules, ainsi que d'améliorer la sécurité des collaborateurs, réduire les coûts liés aux déplacements et optimiser la productivité.
+This project aims to implement a vehicle geolocation solution for our main African markets. It will allow monitoring and management of vehicle locations, enhancing employee safety, reducing travel costs, and optimizing productivity.
 
-## Contenu du projet
+## Project Contents
 
-Le projet est basé sur Django, un framework de développement web en Python. Il comprend les fonctionnalités suivantes :
+The project is based on Django, a Python web development framework. It includes the following features:
 
-- Géolocalisation en temps réel des véhicules sur une carte interactive.
-- Surveillance du respect des limitations de vitesse et des horaires d'utilisation des véhicules.
-- Analyse du style de conduite, y compris les accélérations, freinages brusques et virages serrés.
-- Génération de rapports sur les déplacements, la consommation de carburant, les pauses, etc.
-- Gestion des utilisateurs avec différents niveaux d'accès et de hiérarchie.
+- Real-time geolocation of vehicles on an interactive map.
+- Monitoring compliance with speed limits and vehicle usage schedules.
+- Analysis of driving style, including accelerations, harsh braking, and tight turns.
+- Generation of reports on vehicle movements, fuel consumption, breaks, etc.
+- User management with different levels of access and hierarchy.
 
-## Comment contribuer
+## How to Contribute
 
-Nous sommes ouverts à la contribution de la communauté pour améliorer ce projet. Si vous souhaitez contribuer, veuillez suivre les étapes ci-dessous :
+We welcome community contributions to enhance this project. If you would like to contribute, please follow the steps below:
 
-1. **Fork ce dépôt sur GitHub.**
+1. **Fork this repository on GitHub**.
 
-2. **Créez une nouvelle branche** pour votre fonctionnalité ou correction de bug.
+2. **Create a new branch** for your feature or bug fix.
 
-3. **Effectuez les modifications** nécessaires dans votre branche.
+3. **Make the necessary changes** in your branch.
 
-4. **Soumettez une demande d'extraction (Pull Request)** en expliquant en détail les modifications apportées.
+4. **Submit a pull request** explaining the changes in detail.
 
-5. **Attendez la revue du code** et les commentaires des contributeurs.
+5. **Wait for code review** and feedback from the contributors.
 
-6. **Effectuez les modifications demandées** si nécessaire.
+6. **Make the requested changes** if needed.
 
-7. **Une fois approuvée**, votre contribution sera fusionnée dans la branche principale.
+7. **Once approved**, your contribution will be merged into the main branch.
 
-Veuillez noter que nous avons des directives de contribution détaillées, veuillez les consulter dans le fichier CONTRIBUTING.md pour plus d'informations.
+Please note that we have detailed contribution guidelines. Please refer to the CONTRIBUTING.md file for more information.
 
-## Installation et Configuration
+## Installation and Configuration
 
-Pour installer et configurer le projet localement, suivez les étapes ci-dessous :
+To install and configure the project locally, follow the steps below:
 
-1. **Clonez ce dépôt sur votre machine** :
+1. **Clone this repository to your machine**:
 ```
 git clone https://github.com/votre-utilisateur/projet-geolocalisation.git
 ```
-2. **Installez les dépendances requises** :
+
+2. **Install the required dependencies**:
 ```
 pip install -r requirements.txt
 ```
 
-3. **Effectuez les migrations des données** :
+3. **Perform data migrations**:
 ```
 python manage.py makemigrations
 python manage.py migrate
 ```
 
-4. **Configurez les paramètres** du projet dans le fichier `config.py`.
+4. **Configure the project settings** in the `config.py` file.
 
-5. **Lancez le serveur de développement** :
+5. **Launch the development server**:
 ```
 python manage.py runserver
 ```
-6. **Accédez à l'application** dans votre navigateur à l'adresse `http://localhost:8000`.
 
-N'hésitez pas à consulter la documentation complète du projet pour plus de détails sur l'installation, la configuration et l'utilisation.
+6. **Access the application** in your browser at `http://localhost:8000`.
 
-## Licence
+Feel free to refer to the complete project documentation for more details on installation, configuration, and usage.
 
-Ce projet est sous licence MIT. Veuillez consulter le fichier LICENCE pour plus d'informations.
+## License
 
-Nous vous encourageons à contribuer à ce projet en rapportant les problèmes, en proposant des améliorations et en soumettant des pull requests. Merci de votre intérêt et de votre participation !
+This project is licensed under the MIT License. Please see the LICENSE file for more information.
 
-**Note : N'oubliez pas de personnaliser les sections et les étapes selon les spécificités de votre projet.**
+We encourage you to contribute to this project by reporting issues, suggesting improvements, and submitting pull requests. Thank you for your interest and participation!
 
+**Note: Don't forget to customize the sections and steps according to your project's specifics.**
