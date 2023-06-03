@@ -15,8 +15,13 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
-from django.urls import path
+from django.urls import path, include
+from . import views
+
+#app_name = 'gps_tracking_backend'
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('user/', include('user_management.urls')),
+    path('', views.dashboard, name='dashboard'),
 ]
