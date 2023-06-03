@@ -1,0 +1,1 @@
+Cette application fournirait une interface utilisateur pour configurer différents paramètres du système, tels que les paramètres de la carte, les limites de vitesse, les préférences de notification, etc.

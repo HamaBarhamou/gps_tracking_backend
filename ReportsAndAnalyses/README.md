@@ -1,0 +1,1 @@
+Cette application générerait des rapports sur les mouvements des véhicules, la consommation de carburant, les pauses et d'autres indicateurs pertinents. Elle pourrait également fournir des analyses et des visualisations pour aider à analyser les données et prendre des décisions éclairées.

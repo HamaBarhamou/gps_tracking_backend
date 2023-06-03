@@ -1,0 +1,1 @@
+Cette application analyserait le style de conduite des véhicules, y compris les accélérations, les freinages brusques et les virages serrés. Elle pourrait fournir des informations sur le comportement des conducteurs et identifier les domaines à améliorer.

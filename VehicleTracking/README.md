@@ -1,0 +1,1 @@
+Cette application serait responsable du suivi en temps réel des véhicules et de l'affichage de leur localisation sur une carte interactive. Elle impliquerait la récupération des données GPS des véhicules et la mise à jour de leurs positions sur la carte.

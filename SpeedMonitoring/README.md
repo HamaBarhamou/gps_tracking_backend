@@ -1,0 +1,1 @@
+Cette application surveillerait la vitesse des véhicules et s'assurerait du respect des limitations de vitesse. Elle pourrait générer des alertes ou des notifications lorsque les véhicules dépassent les limites de vitesse spécifiées.

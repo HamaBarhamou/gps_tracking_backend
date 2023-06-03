@@ -1,0 +1,27 @@
+Suivi des véhicules : 
+    Cette application serait responsable du suivi en temps réel des véhicules et de 
+    l'affichage de leur localisation sur une carte interactive. Elle impliquerait la récupération 
+    des données GPS des véhicules et la mise à jour de leurs positions sur la carte.
+
+Surveillance de la vitesse : 
+    Cette application surveillerait la vitesse des véhicules et s'assurerait du respect des limitations
+     de vitesse. Elle pourrait générer des alertes ou des notifications lorsque les véhicules dépassent les 
+     limites de vitesse spécifiées.
+
+Analyse du style de conduite : 
+    Cette application analyserait le style de conduite des véhicules, y compris les accélérations, les freinages 
+    brusques et les virages serrés. Elle pourrait fournir des informations sur le comportement des conducteurs et 
+    identifier les domaines à améliorer.
+
+Rapports et analyses : 
+    Cette application générerait des rapports sur les mouvements des véhicules, la consommation de carburant, 
+    les pauses et d'autres indicateurs pertinents. Elle pourrait également fournir des analyses et des visualisations
+    pour aider à analyser les données et prendre des décisions éclairées.
+
+Gestion des utilisateurs : 
+    Cette application gérerait l'authentification et l'autorisation des utilisateurs. Elle permettrait à différents utilisateurs
+    d'accéder au système avec des niveaux d'autorisation et une hiérarchie variés.
+
+Configuration et paramètres : 
+    Cette application fournirait une interface utilisateur pour configurer différents paramètres du système, tels que les paramètres
+    de la carte, les limites de vitesse, les préférences de notification, etc.
