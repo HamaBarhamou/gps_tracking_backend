@@ -21,4 +21,9 @@ class UserAdmin(admin.ModelAdmin):
     def save_model(self, request, obj, form, change):
         if not obj.pk:  # Vérifier si l'utilisateur est en cours de création
             obj.password = make_password(form.cleaned_data['password'])
+        else:  # L'utilisateur est en cours de mise à jour
+            if 'password' in form.changed_data:
+                print('hello mie ajur')
+                obj.password = make_password(form.cleaned_data['password'])
         super().save_model(request, obj, form, change)
+        
