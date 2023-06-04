@@ -18,6 +18,7 @@ class User(AbstractUser):
         ('admin', 'Administrateur'),
         ('manager', 'Gestionnaire'),
         ('employee', 'Employé'),
+        ('driver', 'driver'),
     )
 
     role = models.CharField(max_length=20, choices=ROLES)

@@ -1,25 +1,28 @@
-<div class="container-fluid">
-    <div class="row">
-        <div class="col-md-2 bg-dark text-light position-fixed" style="left: 0;">
-            <div class="p-3" style="height: 100vh;">
-                <h3>Menu</h3>
-                <ul class="nav flex-column">
-                    <li class="nav-item">
-                        <a class="nav-link text-light" href="#section1">Section 1</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-light" href="#section2">Section 2</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-light" href="#section3">Section 3</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <div class="col-md-9 offset-md-3">
-            <div class="mt-4">
-                {% block actions %}{% endblock %}
-            </div>
-        </div>
-    </div>
+
+<div class="p-3" style="height: 100vh;">
+    <h3>Menu {{user.role}} </h3>
+    <ul class="nav flex-column">
+        
+        {% if user.role == 'admin' %}
+            <li class="nav-item">
+                <a class="nav-link text-light" href="#section3">Personnel Management</a>
+                <a class="nav-link text-light" href="#section3">Vehicle Management</a>
+            </li>
+        {% endif %}
+        {% if user.role == 'manager' %}
+            <li class="nav-item">
+                <a class="nav-link text-light" href="#section4">Section 4</a>
+            </li>
+        {% endif %}
+        {% if user.role == 'employee' and user.client %}
+            <li class="nav-item">
+                <a class="nav-link text-light" href="#section5">Section 5</a>
+            </li>
+        {% endif %}
+
+        <li class="nav-item">
+            <a class="nav-link text-light" href="#section3">View vehicles</a>
+        </li>
+    </ul>
 </div>
+
