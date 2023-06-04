@@ -4,7 +4,6 @@ from django.contrib.auth.hashers import make_password
 import sys
 
 
-
 class Client(models.Model):
     client_id = models.AutoField(primary_key=True)
     name = models.CharField(max_length=255)
