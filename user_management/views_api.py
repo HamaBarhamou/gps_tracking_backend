@@ -1,10 +1,14 @@
 from .models import User, Client
 from rest_framework import viewsets
 from rest_framework import permissions
-from user_management.serializers import UserSerializer, ClientSerializer
+from user_management.serializers import UserSerializer, ClientSerializer, CustomTokenObtainPairSerializer
 from rest_framework import generics
+from rest_framework_simplejwt.views import TokenObtainPairView
 
 
+
+class CustomTokenObtainPairView(TokenObtainPairView):
+    serializer_class = CustomTokenObtainPairSerializer
 
 class UserViewSet(viewsets.ModelViewSet):
     """

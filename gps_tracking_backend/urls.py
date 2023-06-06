@@ -18,11 +18,11 @@ from django.contrib import admin
 from django.urls import path, include
 from rest_framework import routers
 from . import views
-from user_management import views_api as user_views
+from user_management import views_api #as user_views
 
 
 router = routers.DefaultRouter()
-router.register(r'users', user_views.UserViewSet)
+router.register(r'users', views_api.UserViewSet)
 
 
 urlpatterns = [
@@ -31,4 +31,5 @@ urlpatterns = [
     path('', views.dashboard, name='dashboard'),
     path('api/', include(router.urls)),
     #path('api-auth/', include('rest_framework.urls', namespace='rest_framework')),
+    path('api/token/', views_api.CustomTokenObtainPairView.as_view(), name='token_obtain_pair'),
 ]
